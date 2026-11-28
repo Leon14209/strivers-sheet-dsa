@@ -15,7 +15,7 @@ k=len(str(n))
 for i in str(n):
     s+=int(i)**k
 if s==n:
-    print(True)    
+    print(True)
 else:
     print(False)"""
 #PERFECT NO

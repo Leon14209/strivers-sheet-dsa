@@ -40,7 +40,7 @@ print(recrevstr("leon")"""
     elif n[0]==n[-1]:
         return recpalincheck(n[1:-1])
     else:
-        return False    
+        return False
 print(recpalincheck("leonoel")"""
 
 
@@ -53,7 +53,7 @@ print(recpalincheck("leonoel")"""
     elif n%i!=0:
         return recprimecheck(n,i+1)
     else:
-        return False    
+        return False
 print(recprimecheck(8087))"""
 
 

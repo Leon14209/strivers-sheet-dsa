@@ -5,7 +5,7 @@ for i in range(len(s)):
     k=s[0:i+1]
     if int(k)%2!=0:
         o=k
-print(o)""" 
+print(o)"""
 #LONHEST COMMON PREFIX
 """def longestCommonPrefix(strs):
     first = strs[0]
@@ -16,4 +16,4 @@ print(o)"""
                 return first[:i]
 
     return first """
-# 
+#
